@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.gradu_kotlin_bench.MainFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/main_page_fragment">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/AnimationsSelectionFragment" />
+        <action
+            android:id="@+id/action_MainFragment_to_UtilitiesFragment"
+            app:destination="@id/UtilitiesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.gradu_kotlin_bench.AnimationsFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/animations_fragment_high">
+        <argument
+            android:name="columns"
+            android:defaultValue="4"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/AnimationsSelectionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/UtilitiesFragment"
+        android:name="com.example.gradu_kotlin_bench.UtilitiesFragment"
+        android:label="@string/utilities_fragment_label"
+        tools:layout="@layout/utilities_fragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/AnimationsSelectionFragment"
+        android:name="com.example.gradu_kotlin_bench.AnimationsSelectionFragment"
+        android:label="Animations Selection Fragment"
+        tools:layout="@layout/animations_selection_fragment">
+
+        <action
+            android:id="@+id/action_AnimationsSelectionFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+</navigation>

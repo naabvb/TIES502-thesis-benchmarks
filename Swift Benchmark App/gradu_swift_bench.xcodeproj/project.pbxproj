@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE2534E525DADB47008CBB90 /* AnimationsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2534E425DADB47008CBB90 /* AnimationsSelectionView.swift */; };
+		DE8B5F5225D591F600740244 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B5F5125D591F600740244 /* MainView.swift */; };
+		DE8B5F5A25D5951900740244 /* UtilitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B5F5925D5951900740244 /* UtilitiesView.swift */; };
+		DEA4783025D6EDD4002CC5CF /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA4782F25D6EDD4002CC5CF /* CryptoKit.framework */; };
+		DEA4783525D703CC002CC5CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA4783425D703CC002CC5CF /* CoreLocation.framework */; };
+		DEA4783C25D707DA002CC5CF /* locationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA4783B25D707DA002CC5CF /* locationClass.swift */; };
+		DEDC496325C3330200BF6384 /* gradu_swift_benchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC496225C3330200BF6384 /* gradu_swift_benchApp.swift */; };
+		DEDC496525C3330200BF6384 /* AnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC496425C3330200BF6384 /* AnimationsView.swift */; };
+		DEDC496725C3330300BF6384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDC496625C3330300BF6384 /* Assets.xcassets */; };
+		DEDC496A25C3330300BF6384 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDC496925C3330300BF6384 /* Preview Assets.xcassets */; };
+		DEDC497525C3330300BF6384 /* gradu_swift_benchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC497425C3330300BF6384 /* gradu_swift_benchTests.swift */; };
+		DEDC498025C3330400BF6384 /* gradu_swift_benchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDC497F25C3330400BF6384 /* gradu_swift_benchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEDC497125C3330300BF6384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDC495725C3330200BF6384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDC495E25C3330200BF6384;
+			remoteInfo = gradu_swift_bench;
+		};
+		DEDC497C25C3330400BF6384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEDC495725C3330200BF6384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEDC495E25C3330200BF6384;
+			remoteInfo = gradu_swift_bench;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE2534E425DADB47008CBB90 /* AnimationsSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsSelectionView.swift; sourceTree = "<group>"; };
+		DE8B5F5125D591F600740244 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DE8B5F5925D5951900740244 /* UtilitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitiesView.swift; sourceTree = "<group>"; };
+		DEA4782F25D6EDD4002CC5CF /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = System/Library/Frameworks/CryptoKit.framework; sourceTree = SDKROOT; };
+		DEA4783425D703CC002CC5CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DEA4783B25D707DA002CC5CF /* locationClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationClass.swift; sourceTree = "<group>"; };
+		DEDC495F25C3330200BF6384 /* gradu_swift_bench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gradu_swift_bench.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDC496225C3330200BF6384 /* gradu_swift_benchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradu_swift_benchApp.swift; sourceTree = "<group>"; };
+		DEDC496425C3330200BF6384 /* AnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsView.swift; sourceTree = "<group>"; };
+		DEDC496625C3330300BF6384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEDC496925C3330300BF6384 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEDC496B25C3330300BF6384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDC497025C3330300BF6384 /* gradu_swift_benchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gradu_swift_benchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDC497425C3330300BF6384 /* gradu_swift_benchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradu_swift_benchTests.swift; sourceTree = "<group>"; };
+		DEDC497625C3330300BF6384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEDC497B25C3330400BF6384 /* gradu_swift_benchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gradu_swift_benchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDC497F25C3330400BF6384 /* gradu_swift_benchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradu_swift_benchUITests.swift; sourceTree = "<group>"; };
+		DEDC498125C3330400BF6384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDC495C25C3330200BF6384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA4783525D703CC002CC5CF /* CoreLocation.framework in Frameworks */,
+				DEA4783025D6EDD4002CC5CF /* CryptoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDC496D25C3330300BF6384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDC497825C3330400BF6384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA4782E25D6EDD4002CC5CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEA4783425D703CC002CC5CF /* CoreLocation.framework */,
+				DEA4782F25D6EDD4002CC5CF /* CryptoKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEDC495625C3330200BF6384 = {
+			isa = PBXGroup;
+			children = (
+				DEDC496125C3330200BF6384 /* gradu_swift_bench */,
+				DEDC497325C3330300BF6384 /* gradu_swift_benchTests */,
+				DEDC497E25C3330400BF6384 /* gradu_swift_benchUITests */,
+				DEDC496025C3330200BF6384 /* Products */,
+				DEA4782E25D6EDD4002CC5CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDC496025C3330200BF6384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDC495F25C3330200BF6384 /* gradu_swift_bench.app */,
+				DEDC497025C3330300BF6384 /* gradu_swift_benchTests.xctest */,
+				DEDC497B25C3330400BF6384 /* gradu_swift_benchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDC496125C3330200BF6384 /* gradu_swift_bench */ = {
+			isa = PBXGroup;
+			children = (
+				DEDC496225C3330200BF6384 /* gradu_swift_benchApp.swift */,
+				DEDC496425C3330200BF6384 /* AnimationsView.swift */,
+				DEDC496625C3330300BF6384 /* Assets.xcassets */,
+				DEDC496B25C3330300BF6384 /* Info.plist */,
+				DEDC496825C3330300BF6384 /* Preview Content */,
+				DE8B5F5125D591F600740244 /* MainView.swift */,
+				DE8B5F5925D5951900740244 /* UtilitiesView.swift */,
+				DEA4783B25D707DA002CC5CF /* locationClass.swift */,
+				DE2534E425DADB47008CBB90 /* AnimationsSelectionView.swift */,
+			);
+			path = gradu_swift_bench;
+			sourceTree = "<group>";
+		};
+		DEDC496825C3330300BF6384 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DEDC496925C3330300BF6384 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEDC497325C3330300BF6384 /* gradu_swift_benchTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDC497425C3330300BF6384 /* gradu_swift_benchTests.swift */,
+				DEDC497625C3330300BF6384 /* Info.plist */,
+			);
+			path = gradu_swift_benchTests;
+			sourceTree = "<group>";
+		};
+		DEDC497E25C3330400BF6384 /* gradu_swift_benchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEDC497F25C3330400BF6384 /* gradu_swift_benchUITests.swift */,
+				DEDC498125C3330400BF6384 /* Info.plist */,
+			);
+			path = gradu_swift_benchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDC495E25C3330200BF6384 /* gradu_swift_bench */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDC498425C3330400BF6384 /* Build configuration list for PBXNativeTarget "gradu_swift_bench" */;
+			buildPhases = (
+				DEDC495B25C3330200BF6384 /* Sources */,
+				DEDC495C25C3330200BF6384 /* Frameworks */,
+				DEDC495D25C3330200BF6384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gradu_swift_bench;
+			productName = gradu_swift_bench;
+			productReference = DEDC495F25C3330200BF6384 /* gradu_swift_bench.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEDC496F25C3330300BF6384 /* gradu_swift_benchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDC498725C3330400BF6384 /* Build configuration list for PBXNativeTarget "gradu_swift_benchTests" */;
+			buildPhases = (
+				DEDC496C25C3330300BF6384 /* Sources */,
+				DEDC496D25C3330300BF6384 /* Frameworks */,
+				DEDC496E25C3330300BF6384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDC497225C3330300BF6384 /* PBXTargetDependency */,
+			);
+			name = gradu_swift_benchTests;
+			productName = gradu_swift_benchTests;
+			productReference = DEDC497025C3330300BF6384 /* gradu_swift_benchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEDC497A25C3330400BF6384 /* gradu_swift_benchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDC498A25C3330400BF6384 /* Build configuration list for PBXNativeTarget "gradu_swift_benchUITests" */;
+			buildPhases = (
+				DEDC497725C3330400BF6384 /* Sources */,
+				DEDC497825C3330400BF6384 /* Frameworks */,
+				DEDC497925C3330400BF6384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEDC497D25C3330400BF6384 /* PBXTargetDependency */,
+			);
+			name = gradu_swift_benchUITests;
+			productName = gradu_swift_benchUITests;
+			productReference = DEDC497B25C3330400BF6384 /* gradu_swift_benchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDC495725C3330200BF6384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					DEDC495E25C3330200BF6384 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					DEDC496F25C3330300BF6384 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DEDC495E25C3330200BF6384;
+					};
+					DEDC497A25C3330400BF6384 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = DEDC495E25C3330200BF6384;
+					};
+				};
+			};
+			buildConfigurationList = DEDC495A25C3330200BF6384 /* Build configuration list for PBXProject "gradu_swift_bench" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEDC495625C3330200BF6384;
+			productRefGroup = DEDC496025C3330200BF6384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDC495E25C3330200BF6384 /* gradu_swift_bench */,
+				DEDC496F25C3330300BF6384 /* gradu_swift_benchTests */,
+				DEDC497A25C3330400BF6384 /* gradu_swift_benchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDC495D25C3330200BF6384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDC496A25C3330300BF6384 /* Preview Assets.xcassets in Resources */,
+				DEDC496725C3330300BF6384 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDC496E25C3330300BF6384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDC497925C3330400BF6384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDC495B25C3330200BF6384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDC496525C3330200BF6384 /* AnimationsView.swift in Sources */,
+				DE8B5F5A25D5951900740244 /* UtilitiesView.swift in Sources */,
+				DE2534E525DADB47008CBB90 /* AnimationsSelectionView.swift in Sources */,
+				DEA4783C25D707DA002CC5CF /* locationClass.swift in Sources */,
+				DE8B5F5225D591F600740244 /* MainView.swift in Sources */,
+				DEDC496325C3330200BF6384 /* gradu_swift_benchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDC496C25C3330300BF6384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDC497525C3330300BF6384 /* gradu_swift_benchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDC497725C3330400BF6384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDC498025C3330400BF6384 /* gradu_swift_benchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEDC497225C3330300BF6384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDC495E25C3330200BF6384 /* gradu_swift_bench */;
+			targetProxy = DEDC497125C3330300BF6384 /* PBXContainerItemProxy */;
+		};
+		DEDC497D25C3330400BF6384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEDC495E25C3330200BF6384 /* gradu_swift_bench */;
+			targetProxy = DEDC497C25C3330400BF6384 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DEDC498225C3330400BF6384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEDC498325C3330400BF6384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEDC498525C3330400BF6384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"gradu_swift_bench/Preview Content\"";
+				DEVELOPMENT_TEAM = 89JC457BDW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = gradu_swift_bench/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lauri-Pimia-.gradu-swift-bench";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEDC498625C3330400BF6384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"gradu_swift_bench/Preview Content\"";
+				DEVELOPMENT_TEAM = 89JC457BDW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = gradu_swift_bench/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lauri-Pimia-.gradu-swift-bench";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEDC498825C3330400BF6384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gradu_swift_benchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lauri-Pimia-.gradu-swift-benchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gradu_swift_bench.app/gradu_swift_bench";
+			};
+			name = Debug;
+		};
+		DEDC498925C3330400BF6384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gradu_swift_benchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lauri-Pimia-.gradu-swift-benchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gradu_swift_bench.app/gradu_swift_bench";
+			};
+			name = Release;
+		};
+		DEDC498B25C3330400BF6384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gradu_swift_benchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lauri-Pimia-.gradu-swift-benchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gradu_swift_bench;
+			};
+			name = Debug;
+		};
+		DEDC498C25C3330400BF6384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = gradu_swift_benchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lauri-Pimia-.gradu-swift-benchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gradu_swift_bench;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDC495A25C3330200BF6384 /* Build configuration list for PBXProject "gradu_swift_bench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDC498225C3330400BF6384 /* Debug */,
+				DEDC498325C3330400BF6384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDC498425C3330400BF6384 /* Build configuration list for PBXNativeTarget "gradu_swift_bench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDC498525C3330400BF6384 /* Debug */,
+				DEDC498625C3330400BF6384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDC498725C3330400BF6384 /* Build configuration list for PBXNativeTarget "gradu_swift_benchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDC498825C3330400BF6384 /* Debug */,
+				DEDC498925C3330400BF6384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDC498A25C3330400BF6384 /* Build configuration list for PBXNativeTarget "gradu_swift_benchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDC498B25C3330400BF6384 /* Debug */,
+				DEDC498C25C3330400BF6384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEDC495725C3330200BF6384 /* Project object */;
+}

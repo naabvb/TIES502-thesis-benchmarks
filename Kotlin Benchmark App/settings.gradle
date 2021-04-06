@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "gradu_kotlin_bench"
